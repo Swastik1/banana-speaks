@@ -1,6 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito&family=Outfit&display=swap');
+
+body {
+    font-family: 'Montserrat' , 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     text-align: center;
 }
+
+h1{
+    color: rgb(199, 231, 231);
+    background-color: rgb(63, 123, 172);
+    margin:auto;
+    margin-inline-start: -10px;
+    margin-inline-end: -10px;
+    margin-top: -5px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+h4{
+    color: cornflowerblue;
+}
+
 
 #txt-input{
     margin: auto;
@@ -8,16 +32,10 @@
     width: 80%;
     height: 10vh;
     display: block;
+    text-align: center;
+    border-color: burlywood;
 }
 
-#output{
-    border: 1px solid;
-    margin: auto;
-    padding: 1rem;
-    width: 80%;
-    height: 10vh;
-    display: block;
-}
 
 #btn-translate {
     color:blueviolet;
@@ -34,6 +52,7 @@
 #btn-translate:hover{
     background-color:aqua;
     transition: 0.7s;
+    cursor: pointer;
 }
 
 #btn-translate:focus{
@@ -45,5 +64,32 @@
 #btn-translate:active{
     background-color: black;
     transition: 1s;
+    cursor: pointer;
 }
+
+#output{
+    border: 1px solid;
+    margin: auto;
+    padding: 1rem;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    text-align: center;
+    color:rgb(255, 188, 20);
+    font-weight: bold;
+}
+
+.minion1 {
+    
+    order: 1px solid;
+    margin: auto;
+    padding: 1rem;
+    width: 20%;
+    height: 20vh;
+    display: block;
+    text-align: center;
+    
+}
+
+
 
