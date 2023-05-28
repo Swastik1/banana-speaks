@@ -18,3 +18,32 @@
     height: 10vh;
     display: block;
 }
+
+#btn-translate {
+    color:blueviolet;
+    border: none;
+    width: 20%;
+    height: 10vh;
+    background-color: rgb(17, 248, 98);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px aqua;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#btn-translate:hover{
+    background-color:aqua;
+    transition: 0.7s;
+}
+
+#btn-translate:focus{
+    outline-color: green;
+    box-shadow: 0 0 0 4px;
+    transition: 0.7s;
+}
+
+#btn-translate:active{
+    background-color: black;
+    transition: 1s;
+}
+
