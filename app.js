@@ -8,6 +8,12 @@ function getTranslator(input){
     return serverUrl + "?" + "text=" + input;
 }
 
+function errorHandler(error){
+    console.log("error occured", error);
+    alert("Something wrong with the server ");
+}
+
+
 function clickHandler(){
 
     //reading the value from the textarea
